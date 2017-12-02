@@ -92,16 +92,15 @@ footer {
 .footer-section-one {
   width: 100%;
   height: auto;
-
-}
-
-footer p, footer h2 {
-  color: #fff;
+  margin: 0 auto 0 auto 0;
 }
 
 .footer-section-three {
   display: flex;
-  justify-content: flex-start;
+}
+
+footer p, footer h2 {
+  color: #fff;
 }
 
 .fb, .ig img {
@@ -146,7 +145,6 @@ footer p, footer h2 {
     width: 50px;
     margin: 10px;
   }
-
 }
 
 @media (min-width: 900px) and (max-width: 1200px) {
