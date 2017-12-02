@@ -9,26 +9,26 @@ html {
 body {
   margin: 0;
 }
-p, h1, h2 {
 
+p, h1, h2 {
 }
 
 header {
   background: url("./webb/FB_pattern_nologo.jpg");
   width: 100%;
-  height: auto;
+  height: 750px;
   background-size: contain;
 }
 img {
-  width: 600px;
+  width: 450px;
 }
 
 .logo {
-  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto 0 auto;
   position: relative;
 }
 
@@ -39,17 +39,13 @@ img {
   justify-content: center;
   position: absolute;
   width: 50%;
-  height: 50%;
+  height: auto;
   z-index: 1;
   top: 130px;
   right: 0;
   bottom: 0;
   left: 0;
   margin: 0 auto 0 auto;
-}
-
-.about {
-  text-align: center;
 }
 
 .first {
@@ -62,12 +58,12 @@ img {
   display: flex;
   flex-flow: column;
   align-items: center;
+  text-align: left;
   justify-content: center;
   width: 50%;
   height: 100%;
   margin: 0 auto 0 auto;
 }
-
 
 
 @media query {
