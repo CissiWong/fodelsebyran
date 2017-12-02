@@ -1,71 +1,111 @@
+/*Mobile first, 320 px width*/
+
 * {
   box-sizing: border-box;
 }
 
 html {
   font-family: 'Libre Baskerville', serif;
+  line-height: 1.5;
 }
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 p, h1, h2 {
+  color:
+}
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 header {
   background: url("./webb/FB_pattern_nologo.jpg");
   width: 100%;
-  height: 750px;
+  height: 450px;
   background-size: contain;
+  padding: 25px;
+
 }
 img {
-  width: 450px;
-}
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  width: 100%;
   margin: 0 auto 0 auto;
-  position: relative;
 }
 
-.intro {
+
+.text-intro {
   display: flex;
   flex-flow: wrap column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  width: 50%;
+  width: 100%;
   height: auto;
-  z-index: 1;
-  top: 130px;
-  right: 0;
-  bottom: 0;
-  left: 0;
   margin: 0 auto 0 auto;
+  padding: 25px;
 }
 
 .first {
   background: #d1fed9;
   width: 100%;
   height: auto;
+  padding: 25px;
 }
 
-.text {
+
+.text-first {
   display: flex;
   flex-flow: column;
-  align-items: center;
-  text-align: left;
-  justify-content: center;
-  width: 50%;
-  height: 100%;
+  justify-content: left;
+  width: 100%;
+  height: auto;
   margin: 0 auto 0 auto;
-}
-
-
-@media query {
 
 }
+
+.second {
+  background: yellow;
+  width: 100%;
+  height: 300px;
+  padding: 25px;
+}
+
+footer {
+  background: black;
+  width: 100%;
+  height: auto;
+  padding: 25px;
+}
+
+.footer-section-one {
+  width: 75%;
+  height: 300px;
+
+}
+
+footer p, footer h2 {
+  color: #fff;
+}
+/*
+@media (max-width: 320px) {
+  .logo {
+    width: 75%;
+  }
+  .footer-section-one, .footer-section-two, .footer-section-three {
+    width: 75%;
+  }
+   .text-logo, .text-first {
+    width: 75%;
+    margin: 25px;
+  }
+}*/
