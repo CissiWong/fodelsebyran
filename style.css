@@ -96,6 +96,19 @@ footer {
 footer p, footer h2 {
   color: #fff;
 }
+
+.footer-section-two {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fb, .ig img {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px 10px 10px;
+}
+
+
 /*
 @media (max-width: 320px) {
   .logo {
