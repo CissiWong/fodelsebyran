@@ -29,6 +29,7 @@ h1 {
 h2 {
   font-size: 18px;
 }
+
 a {
   color: #f479f2;
 }
@@ -36,11 +37,11 @@ a {
 header {
   background: url("./webb/FB_pattern_nologo.jpg");
   width: 100%;
-  height: 400px;
+  height: auto;
   background-size: contain;
   padding: 25px;
-
 }
+
 img {
   display: block;
   width: 100%;
@@ -48,15 +49,10 @@ img {
 }
 
 
-.text-intro {
-  display: flex;
-  flex-flow: wrap column;
-  align-items: center;
-  justify-content: center;
+.text-logo {
   width: 100%;
   height: auto;
   margin: 0 auto 0 auto;
-  padding: 25px;
 }
 
 .first {
@@ -74,7 +70,6 @@ img {
   width: 100%;
   height: auto;
   margin: 0 auto 0 auto;
-
 }
 
 .second {
@@ -85,15 +80,18 @@ img {
 }
 
 footer {
+  display: flex;
+  flex-wrap: wrap;
   background: black;
   width: 100%;
   height: auto;
   padding: 25px;
+  margin: 0 auto 0 auto 0;
 }
 
 .footer-section-one {
-  width: 75%;
-  height: 300px;
+  width: 100%;
+  height: auto;
 
 }
 
@@ -101,28 +99,145 @@ footer p, footer h2 {
   color: #fff;
 }
 
-.footer-section-two {
+.footer-section-three {
   display: flex;
   justify-content: flex-start;
 }
 
 .fb, .ig img {
-  height: 50px;
-  width: 50px;
-  margin: 0 10px 10px 10px;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
 }
 
 
-/*
-@media (max-width: 320px) {
+@media (min-width: 425px) and (max-width: 600px) {
   .logo {
+    width: 80%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .logo {
+    width: 60%;
+  }
+
+  .footer-section-one, .footer-section-two, .footer-section-three {
     width: 75%;
+  }
+   .text-logo, .text-first {
+    width: 75%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .fb, .ig img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .logo {
+    width: 50%;
   }
   .footer-section-one, .footer-section-two, .footer-section-three {
     width: 75%;
   }
    .text-logo, .text-first {
     width: 75%;
-    margin: 25px;
   }
-}*/
+
+  p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .fb, .ig img {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+  }
+}
+
+@media (min-width:1200px) and (max-width: 1500px) {
+  .logo {
+    width: 50%;
+  }
+
+  .footer-section-one, .footer-section-two, .footer-section-three {
+    width: 50%;
+  }
+
+   .text-logo, .text-first {
+    width: 50%;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .fb, .ig img {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 2000px) {
+  .logo {
+    width: 40%;
+  }
+
+  .footer-section-one, .footer-section-two, .footer-section-three {
+    width: 50%;
+  }
+
+   .text-logo, .text-first {
+    width: 50%;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .fb, .ig img {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+  }
+}
